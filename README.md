@@ -12,32 +12,49 @@ The goal is to discover whether LLM societies become stable, adaptive, oscillato
 The project uses games such as the Prisoner’s Dilemma, Stag Hunt, Battle of the Sexes, and Public Goods Game, combined with different network structures and controlled perturbations.
 
 
+
 PIPELINE
 
+
+
 Initialize population
+
         ↓
 Initialize network
         ↓
+
 Set N, M, T, α, F, G, H
+
         ↓
+
 Run repeated interactions
         ↓
+
 Generate LLM actions
         ↓
+
 Compute rewards
         ↓
+
 Update memory
         ↓
+
 Apply adaptation
         ↓
+
 Log trajectories
         ↓
+
 Apply perturbations
         ↓
+
 Compute observables
+      ↓
 
+Classify dynamical regime
+        ↓
 
-
+Estimate stability frontier
 
 
 
@@ -61,8 +78,4 @@ Measuring finite-size effects
 Comparing network topologies
 Testing multiple games
 Estimating empirical stability surfaces
-Testing generalization across LLM families
-        ↓
-Classify dynamical regime
-        ↓
-Estimate stability frontier
+Testing generalization across LLM family
